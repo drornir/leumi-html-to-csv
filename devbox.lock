@@ -1,6 +1,78 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "coreutils-full@latest": {
+      "last_modified": "2024-12-23T21:10:33Z",
+      "resolved": "github:NixOS/nixpkgs/de1864217bfa9b5845f465e771e0ecb48b30e02d#coreutils-full",
+      "source": "devbox-search",
+      "version": "9.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1ik45d44lgiy64d2bw0byngsmp7lr8dq-coreutils-full-9.5",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/l4vxh368wxcksngcdgb5vprfk9mzgj24-coreutils-full-9.5-info"
+            }
+          ],
+          "store_path": "/nix/store/1ik45d44lgiy64d2bw0byngsmp7lr8dq-coreutils-full-9.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2hl06m6vrvj4cik4d8msc24wk5kvj645-coreutils-full-9.5",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/r56fd7hxzp6sap2ifbvx6dszw352dqxp-coreutils-full-9.5-debug"
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/62qp60w0x66zr2q75wmrp7sz3k0ywd96-coreutils-full-9.5-info"
+            }
+          ],
+          "store_path": "/nix/store/2hl06m6vrvj4cik4d8msc24wk5kvj645-coreutils-full-9.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h8h2cjbvlwb51bgrl7swl92fwl9rlhq7-coreutils-full-9.5",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/szj63pjpxspi6n4fqqh9vil8ypykq2a6-coreutils-full-9.5-info"
+            }
+          ],
+          "store_path": "/nix/store/h8h2cjbvlwb51bgrl7swl92fwl9rlhq7-coreutils-full-9.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/imrcr31vjr7p62lgqh3k9p4j3vz1y5yf-coreutils-full-9.5",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/s7rjihsw3q9l0y4b3fmxk06s0z5387nr-coreutils-full-9.5-info"
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/gwsjrkr4zkq5wsmwfqsic0n4lsnxmash-coreutils-full-9.5-debug"
+            }
+          ],
+          "store_path": "/nix/store/imrcr31vjr7p62lgqh3k9p4j3vz1y5yf-coreutils-full-9.5"
+        }
+      }
+    },
     "deno@2": {
       "last_modified": "2025-01-23T08:51:36Z",
       "resolved": "github:NixOS/nixpkgs/055c50feaa548eadca66407630961b77f3ebb750#deno",
