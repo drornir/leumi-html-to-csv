@@ -15,13 +15,11 @@ await writeToFile("Date,Description,Asmachta,Paid,Got,Total,Comment\n");
 const $ = cheerio.load(inputFile);
 
 const tbl = $(".ts-table");
-const rows = tbl.find(".order-items .ts-table-row");
+const rows = tbl.find(".order-items > .history-item > div > .ts-table-row");
 
 for (let i = 0; i < rows.length; ++i) {
   // for (let i = 0; i < 5; ++i) {
-  if (i % 2 === 1) {
-    continue;
-  }
+
   const row = rows[i];
   // console.log($(row).text().replaceAll("\n", " "));
 
